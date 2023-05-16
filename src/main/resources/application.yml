@@ -11,7 +11,7 @@ spring:
         url: jdbc:mysql://root:JMeyXekMDRL1BvBdeeR5@containers-us-west-182.railway.app:6766/railway?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
         username: root
         password: JMeyXekMDRL1BvBdeeR5
-#        driver-class-name: com.mysql.cj.jdbc.Driver
+##        driver-class-name: com.mysql.cj.jdbc.Driver
 #    jpa:
 ##        show-sql: true
 #        hibernate:

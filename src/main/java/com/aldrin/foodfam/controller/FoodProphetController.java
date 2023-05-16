@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author Java Programming with Aldrin
  */
 @Controller
-@RequestMapping(value = "/")
+
 public class FoodProphetController {
-    @GetMapping("/")
+    @RequestMapping(value = "/")
     public String index(){
         return "/index";
     }
