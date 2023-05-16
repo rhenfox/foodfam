@@ -7,18 +7,17 @@ package com.aldrin.foodfam.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author ALDRIN
+ * @author Java Programming with Aldrin
  */
 @Controller
-@RequestMapping("/")
-public class FoodFamController {
-
+@RequestMapping(value = "/")
+public class FoodProphetController {
     @GetMapping("/")
-    public String index() {
-        return "index";
+    public String index(){
+        return "/index";
     }
+    
 }
