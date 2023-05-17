@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 @RequestMapping("/")
 public class FoodFamController {
-    @GetMapping("/index")
+    @GetMapping("/")
     public String index(){
         return "index";
     }

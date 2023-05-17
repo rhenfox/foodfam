@@ -8,9 +8,9 @@
 
 spring:
     datasource:
-        url: jdbc:mysql://root:JMeyXekMDRL1BvBdeeR5@containers-us-west-182.railway.app:6766/railway
+        url: jdbc:mysql://root:VLslTCnV1OwXnMEzOZvl@containers-us-west-13.railway.app:6858/railway
         username: root
-        password: JMeyXekMDRL1BvBdeeR5
+        password: VLslTCnV1OwXnMEzOZvl
 ##        driver-class-name: com.mysql.cj.jdbc.Driver
 #    jpa:
 ##        show-sql: true
