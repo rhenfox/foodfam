@@ -50,10 +50,10 @@ public class SpringSecurityConfig implements WebMvcConfigurer {
         http.csrf().disable()
                 .authorizeRequests()
                 .requestMatchers("/registration/**", "/login/**", "/","/webjars/**","/js/**","/css/**","/images/**").permitAll()
-//                .anyRequest().authenticated()
+                .anyRequest().authenticated()
                 .and()
-//                .formLogin().loginPage("/login").successHandler(successHandler)
-//                .and().csrf().disable()
+                .formLogin().loginPage("/login").successHandler(successHandler)
+                .and().csrf().disable()
                 .logout().logoutUrl("/logout").logoutSuccessUrl("/")
                 .and().oauth2Login().loginPage("/login").defaultSuccessUrl("/home")
                 .successHandler(successHandler);
